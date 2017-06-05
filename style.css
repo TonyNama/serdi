@@ -1,0 +1,169 @@
+/*
+Theme Name: Le thème de serdi
+Author: NAMA Anthony
+Author URI: http://www.serdi-cm.com
+Description: Notre premier thème WordPress !
+*/
+/*
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 500px) {
+    h2 { 
+        font-size:-2; 
+    }
+}
+*/
+.drapeau{
+	width: 38px;
+	height: 30px;
+	margin-left: 50px;
+}
+
+.phone{
+	width:20px;
+	height:15px;
+	margin-bottom:4px;
+}
+
+#barre{
+	
+	font-size: xx-large;
+	margin-top: 70px;	
+}
+
+#barre2{
+	
+	font-size: xx-large;
+	margin-top: 70px;
+}
+
+#numero{
+	margin-left: 5px;
+	font-size: x-large;
+	
+}
+
+body{
+	background-color: #3F3E3E;
+	font-family:Calibri;
+	color: white;
+}
+
+.active{
+	background-color:green;
+}
+
+.navi{
+	color:black;
+	font-size:20px;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.container{
+}
+@media screen and (min-width: 700px) {
+.navbar{
+	margin-left:165px;
+	margin-top:-7px;
+	border-radius: 0px;
+	
+}
+
+.navbar-brand{
+	margin-right:40px;
+	font-weight:bold;
+	font-size: 40px;
+}
+
+.navbar-right{
+	margin-right:50px;
+}
+}
+
+.imageR{
+    width: 100%;
+    height: auto;
+}
+
+.containSlide{
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: -40px;
+}
+
+.anim1Slide{
+	background:#3F3E3E;
+	height:70px;
+	width:400px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 3.5em;
+}
+
+.anim2Slide{
+	background:#5D5D5D;
+	height:52px;
+	width:450px;
+	position:absolute;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 2.5em;
+}
+
+.anim3Slide{
+	background:#008000;
+	height:33px;
+	width:120px;
+	position:absolute;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.5em;
+}
+
+@media screen and (max-width: 700px) {
+.anim1Slide{
+	background:#3F3E3E;
+	height:40px;
+	width:220px;
+	position:absolute;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 2em;
+}
+
+.anim2Slide{
+	background:#5D5D5D;
+	height:25px;
+	width:230px;
+	position:relative;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.2em;
+	right: 500px;
+}
+
+.anim3Slide{
+	background:#008000;
+	height:17px;
+	width:70px;
+	position:absolute;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1em;
+}
+}
+
+@media screen and (min-width: 768px){
+.carousel-caption {
+    right: 95%;
+    left: 5%;
+    padding-bottom: 30px;
+}
+}
