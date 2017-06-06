@@ -85,7 +85,6 @@
 
   </div>
 </div>
-<br /> <br /> <br />
 <script>
 		// document ready
 			jQuery(document).ready(function($){

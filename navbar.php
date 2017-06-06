@@ -12,8 +12,8 @@
       <ul class="nav navbar-nav navbar-left">
 		<li><a class="active navi" href="#acceuil">acceuil</a></li>
         <li><a class="navi" href="#apropros">A propos</a></li>
-        <li><a class="navi" href="#produits">Nos produits</a></li>
-        <li><a class="navi" href="#services">Nos services</a></li>
+        <li><a class="navi" href="#prod">Nos produits</a></li>
+        <li><a class="navi" href="#serv">Nos services</a></li>
         <li><a class="navi" href="#contact">Contact</a></li>
       </ul>
 	  <ul class="nav navbar-nav navbar-right">
