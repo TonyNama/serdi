@@ -118,8 +118,38 @@
 		<div class="partieContenu" style="width: 260px;">
 			NOS COORDONNEES
 		</div>
-		
+		<br />
+		<div class="row">
+			<div  id="map" class="col-sm-8">
+    			
+    		</div>
+    		<div class="col-sm-4">
+    			merci
+    		</div>
+		</div>
+		<br /><br />
 	</div>
 </section>
+
+<script>
+function initMap() {
+	var myCenter = new google.maps.LatLng(3.786104,11.524681);
+  var mapProp = {
+    center: myCenter,
+    zoom:18,
+    mapTypeId:google.maps.MapTypeId.SATELLITE
+  };
+  var map=new google.maps.Map(document.getElementById('map'), mapProp);
+  
+  var marker=new google.maps.Marker({
+  	position:myCenter,
+  	map:map
+  	});
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8AiAUtcqOoanhuDObPUdCC-5vP3oVA94&callback=initMap">
+</script>
 </body>
 </html>
