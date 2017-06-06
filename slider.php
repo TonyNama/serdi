@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<title>SERDI CAMEROUN</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link href="style.css" rel="stylesheet" type="text/css" media="all" />
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-</head>
-<body>
 <div class="container-fluid containSlide">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -27,14 +15,14 @@
       <div class="item active">
         <img class="imageR" src="images/pub_haut1.jpg" alt="Welcome">
         <div class="carousel-caption">
-        	<div class="anim1Slide">
+        	<div id="sli11" class="anim1Slide">
          		 BIENVENUE
         	</div>
-        	<div class="anim2Slide">
+        	<div id="sli12" class="anim2Slide">
          		 Qui sommes-nous?
        	    </div>
         	<div class="anim3Slide">
-          		 En savoir + 
+          		 <a href="#" style="color: white;">En savoir +</a> 
       		</div>
 		</div>
 	  </div>
@@ -42,14 +30,14 @@
       <div class="item">
         <img class="imageR" src="images/pub_haut2.jpg" alt="Produits">
         <div class="carousel-caption">
-        	<div class="anim1Slide">
+        	<div id="sli21" class="anim1Slide">
           		NOS PRODUITS
         	</div>
-        	<div class="anim2Slide">
+        	<div id="sli22" class="anim2Slide">
          		Appui à la sécurité
         	</div>
         	<div class="anim3Slide">
-          		En savoir +
+          		<a href="#" style="color: white;">En savoir +</a>
         	</div>
       	</div>
       </div>
@@ -57,14 +45,14 @@
       <div class="item">
         <img class="imageR" src="images/pub_haut1.jpg" alt="Services">
         <div class="carousel-caption">
-        	<div class="anim1Slide">
+        	<div id="sli31" class="anim1Slide">
          		NOS SERVICES
         	</div>
-        	<div class="anim2Slide">
+        	<div id="sli32" class="anim2Slide">
           		Demandez votre service
         	</div>
         	<div class="anim3Slide">
-          		En savoir +
+          		<a href="#" style="color: white;">En savoir +</a>
         	</div>
       	</div>
 	  </div>
@@ -72,14 +60,14 @@
       <div class="item">
         <img class="imageR" src="images/pub_haut1.jpg" alt="Contact">
         <div class="carousel-caption">
-        	<div class="anim1Slide">
+        	<div id="sli41" class="anim1Slide">
           		NOS FORMATIONS
         	</div>
-        	<div class="anim2Slide">
-          		Votre formation personnalisée
+        	<div id="sli42" class="anim2Slide">
+          		Demandez votre formation personnalisée
         	</div>
         	<div class="anim3Slide">
-          		En savoir +
+        		<a href="#" style="color: white;">En savoir +</a>
         	</div>
       	</div>
      </div>
@@ -117,23 +105,21 @@
 					var val3 = val +30;
 				}
 				$(".anim1Slide").css({"top":val2});
-				$(".anim1Slide").animate({"left": '300px'},"slow");
+				//$(".anim1Slide").animate({"left": '300px'},"slow");
 				$(".anim2Slide").css({"top":val});
 				$(".anim3Slide").css({"top":val3});
-				$(".anim3Slide").animate({"left": '300px'},"slow");
+				//$(".anim3Slide").animate({"left": '300px'},"slow");
 				
 			});
 			var compt = 0;
 			//Slide animation
-	var myVar = setInterval(myTimer, 5000);
+	//var myVar = setInterval(myTimer, 5000);
 	//setTimeout(myTimer, 3000);
-	function myTimer() {
-			$(".anim1Slide").css({"left":'0px'});
-			$(".anim3Slide").css({"left":'0px'});
-			$(".anim1Slide").animate({"left": '300px'},"slow");
-			$(".anim3Slide").animate({"left": '300px'},"slow");
-	}
+	//function myTimer() {
+		//	$(".anim1Slide").css({"left":'0px'});
+		//	$(".anim3Slide").css({"left":'0px'});
+		//	$(".anim1Slide").animate({"left": '300px'},"slow");
+		//	$(".anim3Slide").animate({"left": '300px'},"slow");
+	//}
 
 </script>
-</body>
-</html>
