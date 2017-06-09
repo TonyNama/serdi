@@ -85,7 +85,9 @@
 
   </div>
 </div>
+
 <script>
+
 		// document ready
 			jQuery(document).ready(function($){
 				var hauteur = $(".carousel-inner").height();

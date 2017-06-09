@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
 	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -9,12 +9,12 @@
       <a class="navbar-brand" href="#">DIPITA</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-left">
-		<li><a class="active navi" href="#acceuil">acceuil</a></li>
-        <li><a class="navi" href="#apropros">A propos</a></li>
-        <li><a class="navi" href="#prod">Nos produits</a></li>
-        <li><a class="navi" href="#serv">Nos services</a></li>
-        <li><a class="navi" href="#contact">Contact</a></li>
+      <ul class="nav navbar-nav">
+		<li><a class="active navi" href="#acceuil"><span class="glyphicon glyphicon-home"></span>&nbsp;Acceuil</a></li>
+        <li><a href="#apropros">A propos</a></li>
+        <li><a href="#prod">Nos produits</a></li>
+        <li><a href="#serv">Nos services</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
 	  <ul class="nav navbar-nav navbar-right">
 		<li><a href="#"><span class="glyphicon glyphicon-user"></span> S'enregistrer</a></li>

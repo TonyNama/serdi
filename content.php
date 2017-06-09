@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<title>SERDI CAMEROUN</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link href="style.css" rel="stylesheet" type="text/css" media="all" />
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-</head>
-<body>
 <section">
 	<div class="container-fluid" style="background-color: #ffffff">
 	<br />
@@ -30,7 +18,8 @@
     			<img class="imageProduit" src="images/sisamot.jpg" alt="logo"/>
     			<h3 class="titreProduit">SISAMOT</h3>
     			<div class="descripProduit">
-    				Système qui permet l'identification des opérateurs de cette activité(opérateurs, condu						cteur, moto, ...) et la sécurité des activités de transport par moto-taxi des usagers. 						Sort l'activité de l'informelle vers le formelle.
+    				Système qui permet l'identification des opérateurs de cette activité(opérateurs, conducteur, moto, ...) et la sécurité des activités de transport par
+    				 moto-taxi des usagers. Sort l'activité de l'informelle vers le formelle.
     			</div>
     			<div><a href="#" style="color: green;">savoir+</a></div>
     		</div>
@@ -39,7 +28,7 @@
     			<h3 class="titreProduit">GESCO</h3>
     			<div class="descripProduit">
     				(Gestion scolaire) Logiciel informatique spécialisée dans la gestion académique des 
-    				universités et grandes écoles. Elle permet la prise en charge de l''étudiant,et de ses 						inscription jusqu'a la fin de ses études.
+    				universités et grandes écoles. Elle permet la prise en charge de l''étudiant,et de ses inscription jusqu'a la fin de ses études.
     			</div>
     			<div><a href="#" style="color: green;">savoir+</a></div>
     		</div>
@@ -50,7 +39,8 @@
     			<img class="imageProduit" src="images/courrier.png" alt="logo"/>
     			<h3 class="titreProduit">SERDICOURRIER</h3>
     			<div class="descripProduit">
-    				Système de gestion de courrier pour administration, collectivités térritoriales et les 						professionnelles. Suivi de la réception du courrier jusqu'a la réponse( toutes les 
+    				Système de gestion de courrier pour administration, collectivités térritoriales et les professionnelles. Suivi de la réception 
+    				du courrier jusqu'a la réponse( toutes les 
     				étapes sont prises en compte)
     			</div>
     			<div><a href="#" style="color: green;">savoir+</a></div>
@@ -110,7 +100,7 @@
     				Formations personnalisées conseils
     			</h2>
     			<div class="descripService">
-    				Notre mettons à la disposition du public des formations personnalisées dans les domaines 						de l'ingénierie informatique selon votre disponibilité.
+    				Notre mettons à la disposition du public des formations personnalisées dans les domaines de l'ingénierie informatique selon votre disponibilité.
     			</div>
     		</div>
   		</div>
@@ -120,11 +110,18 @@
 		</div>
 		<br />
 		<div class="row">
-			<div  id="map" class="col-sm-8">
-    			
+			<div class="col-sm-8">
+    			<div id="map">
+    				
+    			</div>
     		</div>
     		<div class="col-sm-4">
-    			merci
+    			<div class="locali" style="color: black;">
+    				<div><u>Situation géographique</u></div><br />
+    				<div><u>PK 10, Route de l'aéroport International de Yaoundé Nsimalen lieu dit Odza</u></div><br /><br />
+    				<p class="glyphicon glyphicon-stats"><span style="font-size: 1em;">&nbsp;Nombre déjà visités:</span><script type="text/javascript" src="https://counter3.fcs.ovh/private/counter.js?c=996n2a8nhl64p93s4xpdznx7bj9ycyds"></script>
+<noscript><a href="https://www.compteurdevisite.com" title="compteur de visite pour site"><img src="https://counter3.fcs.ovh/private/compteurdevisite.php?c=996n2a8nhl64p93s4xpdznx7bj9ycyds" border="0" title="compteur de visite pour site" alt="compteur de visite pour site"></a></noscript></p> 
+    			</div>
     		</div>
 		</div>
 		<br /><br />
@@ -136,8 +133,8 @@ function initMap() {
 	var myCenter = new google.maps.LatLng(3.786104,11.524681);
   var mapProp = {
     center: myCenter,
-    zoom:18,
-    mapTypeId:google.maps.MapTypeId.SATELLITE
+    zoom:17,
+    mapTypeId:google.maps.MapTypeId.HYBRID
   };
   var map=new google.maps.Map(document.getElementById('map'), mapProp);
   
@@ -151,5 +148,3 @@ google.maps.event.addDomListener(window, 'load', initialize);
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8AiAUtcqOoanhuDObPUdCC-5vP3oVA94&callback=initMap">
 </script>
-</body>
-</html>
