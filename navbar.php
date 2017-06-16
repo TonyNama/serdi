@@ -6,15 +6,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
      </button>
-      <a class="navbar-brand" href="#">DIPITA</a>
+      <a class="navbar-brand" href="index.php" style="background-color:;">DIPITA</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
 		<li><a class="active navi" href="#acceuil"><span class="glyphicon glyphicon-home"></span>&nbsp;Acceuil</a></li>
-        <li><a href="#apropros">A propos</a></li>
-        <li><a href="#prod">Nos produits</a></li>
-        <li><a href="#serv">Nos services</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#apropros" class="navi">A propos</a></li>
+        <li><a href="#prod" class="navi">Nos produits</a></li>
+        <li><a href="#serv" class="navi">Nos services</a></li>
+        <li><a href="contacter.php" class="navi">Contact</a></li>
       </ul>
 	  <ul class="nav navbar-nav navbar-right">
 		<li><a href="#"><span class="glyphicon glyphicon-user"></span> S'enregistrer</a></li>

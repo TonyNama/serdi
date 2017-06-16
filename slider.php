@@ -22,7 +22,7 @@
          		 Qui sommes-nous?
        	    </div>
         	<div class="anim3Slide">
-          		 <a href="#" style="color: white;">En savoir +</a> 
+          		 <a href="contacter.php" style="color: white;">En savoir +</a> 
       		</div>
 		</div>
 	  </div>
@@ -37,7 +37,7 @@
          		Appui à la sécurité
         	</div>
         	<div class="anim3Slide">
-          		<a href="#" style="color: white;">En savoir +</a>
+          		<a href="contacter.php" style="color: white;">En savoir +</a>
         	</div>
       	</div>
       </div>
@@ -52,7 +52,7 @@
           		Demandez votre service
         	</div>
         	<div class="anim3Slide">
-          		<a href="#" style="color: white;">En savoir +</a>
+          		<a href="contacter.php" style="color: white;">En savoir +</a>
         	</div>
       	</div>
 	  </div>
@@ -67,7 +67,7 @@
           		Demandez votre formation personnalisée
         	</div>
         	<div class="anim3Slide">
-        		<a href="#" style="color: white;">En savoir +</a>
+        		<a href="contacter.php" style="color: white;">En savoir +</a>
         	</div>
       	</div>
      </div>

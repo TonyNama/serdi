@@ -1,5 +1,5 @@
-<div class="container-fluid">
 <div style="background-color: #008000; width: 100%; height: 10px;margin-top: 7px; margin-bottom: 10px;"></div>
+<div class="container-fluid">
 <div class="row" style="background-color: #808282;font-size: 2.5em;text-align: center;">
     <div class="col-sm-3">
     	<a href="#" >NOS&nbsp;PRODUITS</a>		
@@ -11,7 +11,7 @@
     		<a href="#">LOCALISATION</a>	
     </div>
     <div class="col-sm-3">
-    	<a href="#">CONTACT</a>		
+    	<a href="contacter.php">CONTACT</a>		
     </div>
 </div>
 <br /><br />
@@ -58,7 +58,7 @@ Horaires d'ouverture: Lundi-Vendredi,
     	<a href="mailto:info-serdi@serdi-cm.com" style="color: white;">info-serdi@serdi-cm.com</a>
     </div>
     <div class="col-sm-3">
-    	<a href="#" style="color: white;">Nous contacter</a>
+    	<a href="contacter.php" style="color: white;">Nous contacter</a>
     </div>
     <div class="col-sm-3">
 

@@ -68,7 +68,7 @@ li a:hover:not(.active) {
 
 @media screen and (min-width: 700px) {
 .navbar{
-	margin-left:165px;
+	margin-left:165px; /*165px*/
 	margin-top:-7px;
 	border-radius: 0px;
 	
@@ -84,7 +84,7 @@ li a:hover:not(.active) {
 	margin-right:50px;
 }
 }
-
+/*decalage barre de navigation*/
 .container>.navbar-header {
 	
     margin-right: 0;
@@ -261,4 +261,13 @@ li a:hover:not(.active) {
     bottom: 0;
     right: 5%;
     opacity: 0.5;
+}
+
+@media screen and (min-width: 400px){
+	.marg{
+		margin-left: 50px;
+	}
+	.marg2{
+		margin-left: 10%;
+	}
 }
