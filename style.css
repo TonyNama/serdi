@@ -1,10 +1,4 @@
 /*
-Theme Name: Le thème de serdi
-Author: NAMA Anthony
-Author URI: http://www.serdi-cm.com
-Description: Notre premier thème WordPress !
-*/
-/*
 img {
     max-width: 100%;
     height: auto;
@@ -16,249 +10,86 @@ img {
     }
 }
 */
-.drapeau{
-	width: 38px;
-	height: 30px;
-	margin-left: 50px;
-}
+.drapeau{width: 38px;height: 30px;margin-left: 50px;}
 
-.phone{
-	width:20px;
-	height:15px;
-	margin-bottom:4px;
-}
+.phone{width:20px;height:15px;margin-bottom:4px;}
 
-#barre{
+#barre{font-size: xx-large;margin-top: 70px;}
+
+#barre2{font-size: xx-large;margin-top: 70px;}
+
+#numero{margin-left: 5px;font-size: x-large;}
+
+body{background-color: #3F3E3E;font-family:Calibri;color: white;}
+
+.active{background-color:green;}
+
+.navi{color:black;font-size:20px;}
+
+li a:hover:not(.active) {background-color: #555;color: white;}
+
+@media screen and (min-width: 768px) {
 	
-	font-size: xx-large;
-	margin-top: 70px;	
+	.navbar{margin-left:165px;margin-top:-7px;border-radius: 0px;}
+	.navbar-brand{margin-right:50px;font-weight:bold;font-size: 40px;}
+	.navbar-right{margin-right:50px;}
 }
 
-#barre2{
+.container>.navbar-header {margin-right: 0px;margin-left: 0px;}
+
+.imageR{width: 100%;height: auto;}
+
+.containSlide{padding-right: 0px;padding-left: 0px;margin-top: -40px;}
+
+.anim1Slide{background:#3F3E3E;height:70px;position: absolute;text-align: center;vertical-align: middle;font-size: 3.5em;}
+.anim2Slide{background:#5D5D5D;height:52px;position:absolute;text-align: center;vertical-align: middle;font-size: 2.5em;}
+.anim3Slide{background:#008000;height:33px;position:absolute;text-align: center;vertical-align: middle;font-size: 1.5em;}
+
+#sli11{width:100px;}
+#sli12{width:210px;}
+#sli21{width:240px;}
+#sli22{width:200px;}
+#sli31{width:220px;}
+#sli32{width:280px;}
+#sli41{width:300px;}
+#sli42{width:530px;}
+
+@media screen and (min-width: 480px) {
+    #sli11{width:270px;}
+	#sli12{width:310px;}
+	#sli21{width:340px;}
+	#sli22{width:300px;}
+	#sli31{width:320px;}
+	#sli32{width:380px;}
+	#sli41{width:400px;}
+	#sli42{width:630px;}
+}
+
+@media screen and (max-width: 768px) {
 	
-	font-size: xx-large;
-	margin-top: 70px;
-}
-
-#numero{
-	margin-left: 5px;
-	font-size: x-large;
-	
-}
-
-body{
-	background-color: #3F3E3E;
-	font-family:Calibri;
-	color: white;
-}
-
-.active{
-	background-color:green;
-}
-
-.navi{
-	color:black;
-	font-size:20px;
-}
-
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-
-@media screen and (min-width: 700px) {
-.navbar{
-	margin-left:165px;
-	margin-top:-7px;
-	border-radius: 0px;
-	
-}
-
-.navbar-brand{
-	margin-right:50px;
-	font-weight:bold;
-	font-size: 40px;
-}
-
-.navbar-right{
-	margin-right:50px;
-}
-}
-
-.container>.navbar-header {
-	
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.imageR{
-    width: 100%;
-    height: auto;
-}
-
-.containSlide{
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-top: -40px;
-}
-
-.anim1Slide{
-	background:#3F3E3E;
-	height:70px;
-	position: absolute;
-	text-align: center;
-	vertical-align: middle;
-	font-size: 3.5em;
-}
-
-.anim2Slide{
-	background:#5D5D5D;
-	height:52px;
-	width:450px;
-	position:absolute;
-	text-align: center;
-	vertical-align: middle;
-	font-size: 2.5em;
-}
-
-.anim3Slide{
-	background:#008000;
-	height:33px;
-	width:120px;
-	position:absolute;
-	text-align: center;
-	vertical-align: middle;
-	font-size: 1.5em;
-}
-
-@media screen and (max-width: 700px) {
-.anim1Slide{
-	background:#3F3E3E;
-	height:40px;
-	width:220px;
-	position:absolute;
-	text-align: center;
-	vertical-align: middle;
-	font-size: 2em;
-}
-
-.anim2Slide{
-	background:#5D5D5D;
-	height:25px;
-	width:230px;
-	position:relative;
-	text-align: center;
-	vertical-align: middle;
-	font-size: 1.2em;
-	right: 500px;
-}
-
-.anim3Slide{
-	background:#008000;
-	height:17px;
-	width:70px;
-	position:absolute;
-	text-align: center;
-	vertical-align: middle;
-	font-size: 1em;
-}
+	.anim1Slide{background:#3F3E3E;height:40px;position:absolute;text-align: center;vertical-align: middle;font-size: 2em;}
+	.anim2Slide{background:#5D5D5D;height:25px;position:relative;text-align: center;vertical-align: middle;font-size: 1.2em;right: 500px;}
+	.anim3Slide{background:#008000;height:17px;position:absolute;text-align: center;vertical-align: middle;font-size: 1em;}
 }
 
 @media screen and (min-width: 768px){
-.carousel-caption {
-    right: 40%;
-    left: 40%;
-    padding-bottom: 30px;
-}
-}
-
-.partieContenu{
-	background:#008000;
-	height:40px;
-	font-size: 2em;
-	text-align: center;
-	vertical-align: middle;
-}
-
-#sli11{
-	width:270px;
-}
-
-#sli12{
-	width:310px;
-}
-
-#sli21{
-	width:340px;
-
-}
-
-#sli22{
-	width:300px;
-}
-
-#sli31{
-	width:320px;
-}
-
-#sli32{
-	width:380px;
-}
-
-#sli41{
-	width:400px;
-}
-
-#sli42{
-	width:630px;
-}
-.titreProduit{
-	color:#008000;
-}
-
-.imageProduit{
-	width: 60px;
-	height: 60px;
-	float: left;
-	margin-right: 30px;
-}
-.descripProduit{
-	color: black;
-	font-weight: bold;
-	text-align: justify;
 	
+	.carousel-caption {right: 40%;left: 40%;padding-bottom: 30px; height: 500px;}
 }
 
-.titreService{
-	color:#808080;
-	text-align: center;
-	font-weight: bold;
-}
+.partieContenu{background:#008000;height:40px;font-size: 2em;text-align: center;vertical-align: middle;}
+.titreProduit{color:#008000;}
 
-.descripService{
-	color: #808282;
-	font-size: x-large;
-	text-align: center;
-	
-}
+.imageProduit{width: 60px;height: 60px;float: left;margin-right: 30px;}
+.descripProduit{color: black;font-weight: bold;text-align: justify;}
 
-#map {
-    height: 500px;
-    width: 100%;
-}
+.titreService{color:#808080;text-align: center;font-weight: bold;}
+.descripService{color: #808282;font-size: x-large;text-align: center;}
 
-.locali{
-	text-align: center;
-	font-weight: bold;
-	font-size: 2em;
-}
+#map {height: 500px;width: 100%;}
 
-.btn-success{
-	background-color: #008000;
-}
-.fixed {
-    position: fixed;
-    bottom: 0;
-    right: 5%;
-    opacity: 0.5;
-}
+.locali{text-align: center;font-weight: bold;font-size: 2em;}
+
+.btn-success{background-color: #008000;}
+
+.fixed {position: fixed;bottom: 0;right: 5%;opacity: 0.5;}
