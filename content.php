@@ -1,10 +1,11 @@
-<section">
+<section>
 	<div class="container-fluid" style="background-color: #ffffff">
 	<br />
 		<div id="prod" class="partieContenu" style="width: 190px;">
 			NOS PRODUITS
 		</div>
-		<br />
+		<!--<hr style="color: blue; width: 25%;"/>-->
+		<br class="desk"/>
   		<div class="row">
     		<div class="col-sm-4"">
     			<img class="imageProduit" src="images/transport.jpg" alt="logo"/>
@@ -12,7 +13,7 @@
     			<div class="descripProduit">
     				Logiciel de gestion de transport de personnes et de biens par autocars controlant tout						es la logistique et méssagerie. Ventes de billets, réservations avec confirmation, pro						ductions de manifeste, statistique de l'activité,...
     			</div>
-    			<div><a href="#" style="color: green;">savoir+</a></div>
+    			<div><a href="contacter.php" style="color: green;">savoir+</a></div>
     		</div>
     		<div class="col-sm-4"">
     			<img class="imageProduit" src="images/sisamot.jpg" alt="logo"/>
@@ -21,7 +22,7 @@
     				Système qui permet l'identification des opérateurs de cette activité(opérateurs, conducteur, moto, ...) et la sécurité des activités de transport par
     				 moto-taxi des usagers. Sort l'activité de l'informelle vers le formelle.
     			</div>
-    			<div><a href="#" style="color: green;">savoir+</a></div>
+    			<div><a href="contacter.php" style="color: green;">savoir+</a></div>
     		</div>
     		<div class="col-sm-4">
     			<img class="imageProduit" src="images/gesco.jpg" alt="logo"/>
@@ -30,10 +31,10 @@
     				(Gestion scolaire) Logiciel informatique spécialisée dans la gestion académique des 
     				universités et grandes écoles. Elle permet la prise en charge de l''étudiant,et de ses inscription jusqu'a la fin de ses études.
     			</div>
-    			<div><a href="#" style="color: green;">savoir+</a></div>
+    			<div><a href="contacter.php" style="color: green;">savoir+</a></div>
     		</div>
   		</div>
-  		<br />
+  		<br class="desk"/><br class="desk"/>
   		<div class="row">
     		<div class="col-sm-4">
     			<img class="imageProduit" src="images/courrier.png" alt="logo"/>
@@ -43,7 +44,7 @@
     				du courrier jusqu'a la réponse( toutes les 
     				étapes sont prises en compte)
     			</div>
-    			<div><a href="#" style="color: green;">savoir+</a></div>
+    			<div><a href="contacter.php" style="color: green;">savoir+</a></div>
     		</div>
     		<div class="col-sm-4">
     			<img class="imageProduit" src="images/imgTemp.png" alt="logo"/>
@@ -51,7 +52,7 @@
     			<div style="font-size: 3.5em;color: black;">
     				En cours.
     				</div>
-    			<div><a href="#" style="color: green;">savoir+</a></div>
+    			<div><a href="contacter.php" style="color: green;">savoir+</a></div>
     		</div>
     		<div class="col-sm-4">
     			<img class="imageProduit" src="images/imgTemp.png" alt="logo"/>
@@ -59,7 +60,7 @@
     			<div style="font-size: 3.5em;color: black;">
     				En cours.
     			</div>
-    			<div><a href="#" style="color: green;">savoir+</a></div>
+    			<div><a href="contacter.php" style="color: green;">savoir+</a></div>
     		</div>
   		</div>
   		<br /> <br /><br />
@@ -127,7 +128,16 @@
 		<br /><br />
 	</div>
 </section>
+<script>
 
+		// document ready
+			jQuery(document).ready(function($){
+				if(screen.width < 700){
+				 $(".desk").remove();
+				}
+				});
+				
+</script>
 <script>
 function initMap() {
 	var myCenter = new google.maps.LatLng(3.786104,11.524681);

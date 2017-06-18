@@ -3,7 +3,7 @@
 		<div class="row">
     		<div class="col-lg-8">
     		
-      	<img src="images/logo.png" alt="logo" style="float: left;margin-left: 30px;"/>
+      <a href="index.php"><img src="images/logo.png" alt="logo" style="float: left;margin-left: 30px;" /></a>
       	<h2 id="titre">SOCIETE D&nbsp;'&nbsp;ETUDES &nbsp;DE &nbsp;&nbsp;RECHERCHE <br/> ET DEVELOPPEMENT INFORMATIQUE</h2>
       					<h4 id="slogan" style="margin-top: 20px;">INTEGRATEUR DE SOLUTIONS</h4>
       		</div>

@@ -1,8 +1,9 @@
+<link href="style.css" rel="stylesheet" type="text/css" media="all" />
 <div class="container-fluid containSlide">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
-    <ol class="carousel-indicators">
+    <ol id="indique" class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -22,7 +23,7 @@
          		 Qui sommes-nous?
        	    </div>
         	<div class="anim3Slide">
-          		 <a href="#" style="color: white;">En savoir +</a> 
+          		 <a href="contacter.php" style="color: white;">En savoir +</a> 
       		</div>
 		</div>
 	  </div>
@@ -37,7 +38,7 @@
          		Appui à la sécurité
         	</div>
         	<div class="anim3Slide">
-          		<a href="#" style="color: white;">En savoir +</a>
+          		<a href="contacter.php" style="color: white;">En savoir +</a>
         	</div>
       	</div>
       </div>
@@ -52,7 +53,7 @@
           		Demandez votre service
         	</div>
         	<div class="anim3Slide">
-          		<a href="#" style="color: white;">En savoir +</a>
+          		<a href="contacter.php" style="color: white;">En savoir +</a>
         	</div>
       	</div>
 	  </div>
@@ -67,7 +68,7 @@
           		Demandez votre formation personnalisée
         	</div>
         	<div class="anim3Slide">
-        		<a href="#" style="color: white;">En savoir +</a>
+        		<a href="contacter.php" style="color: white;">En savoir +</a>
         	</div>
       	</div>
      </div>
@@ -91,22 +92,33 @@
 		// document ready
 			jQuery(document).ready(function($){
 				var hauteur = $(".carousel-inner").height();
+				var largeur = screen.width;
 				var y = $(".carousel-inner").position();
 				var droit = y.right;
 				var gauche = y.left;
 				var demi = hauteur/2;
 				var val = y.top - demi + 50;
-				if(screen.width > 735){
+				if(screen.width < 401){
+					$(".anim1Slide").animate({"left": largeur/7});
+					$(".anim2Slide").animate({"left": largeur/7});
+					$(".anim3Slide").animate({"left": largeur/7});
+				}
+				if(screen.width > 400 && screen.width < 601){
+					$(".anim1Slide").animate({"left": largeur/6});
+					$(".anim2Slide").animate({"left": largeur/6});
+					$(".anim3Slide").animate({"left": largeur/6});
+					
+				}
+				if(screen.width > 700){
 					var val2 = val - 80;
 					var val3 = val + 60;
 				 
 				}else{
 					
-					var val2 = val - 45;
-					var val3 = val +30;
+					var val2 = val - 25;
+					var val3 = val +50;
 				}
 				$(".anim1Slide").css({"top":val2});
-				//$(".anim1Slide").animate({"left": '300px'},"slow");
 				$(".anim2Slide").css({"top":val});
 				$(".anim3Slide").css({"top":val3});
 				//$(".anim3Slide").animate({"left": '300px'},"slow");
